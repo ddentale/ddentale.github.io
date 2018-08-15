@@ -1,5 +1,6 @@
 $(function() {
 
+  // ANIMATION
   new WOW().init();
   
   // GDPR
@@ -9,10 +10,6 @@ $(function() {
   $('#gdpr').on('closed.bs.alert', function () {
     Cookies.set('gdpr', 'true', { expires: 365 });
   })
-
-  // ANIMATIONS
-  // on scroll check element if is to be animated
-
 
 })
 
