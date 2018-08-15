@@ -36,7 +36,7 @@ a { text-decoration: none!important; }
 }
 
 .a4-stripe {
-  padding: 0 1rem;  
+  padding: 0 2rem;  
 }
 
 .a4-stripe p {
@@ -147,15 +147,15 @@ button.a4-bottom-right {
 
 .mapouter{
   text-align:right;
+  width:500px;
   height:400px;
-  width:400px;
 }
 
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
+  width:500px;
   height:400px;
-  width:400px;
 }
 
  
