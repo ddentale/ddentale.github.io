@@ -1,30 +1,299 @@
-<!doctype html>
-<html lang="it">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <title>Ascesa Solutions s.r.l.</title>
+</head>
+<body>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
-
-    <title>My Company</title>
-  </head>
-  <body>
-    <h1 class="text-primary">My Company</h1>
-    
-    <div class="card" style="width:18rem;">
-      <img class="card-img-top" src="https://www.comindware.com/blog/wp-content/uploads/2016/01/programming-code-on-screen.jpg" alt="Card image cap" width="100%">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+  <!-- NAVBAR-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top a4-stripe">
+    <a class="navbar-brand" href="#">
+      <img alt="Ascesa Solutions s.r.l." class="d-inline-block align-top a4-navbar-logo" src="/assets/img/logo.svg">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="ml-auto navbar-nav">
+        <a class="nav-item nav-link" href="#">Home</a> 
+        <a class="nav-item nav-link" href="#services">Servizi</a>
+        <a class="nav-item nav-link" href="#company">Azienda</a> 
+        <a class="nav-item nav-link" href="#contacts">Contatti</a>
+        <a class="nav-item nav-link" href="#partners">Partners</a> 
       </div>
     </div>
+  </nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  </body>
+  <!-- SLIDER -->
+  <header id="company">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active" style="background-image: url('/assets/img/slide-1.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>First Slide</h3>
+            <p>This is a description for the first slide.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item" style="background-image: url('/assets/img/slide-2.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Second Slide</h3>
+            <p>This is a description for the second slide.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item" style="background-image: url('/assets/img/slide-3.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+          </div>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+
+  <!-- SERVICES -->
+  <section id="services" class="a4-stripe bg-grey-1 text-center">
+
+    <hgroup>
+      <h1>Servizi in cloud</h1>
+      <h2><em>semplici,</em> efficaci ed innotativi per la <em>tua Azienda</em> a portata di un click</h2>
+    </hgroup>
+
+    <div class="a4-boxes">
+
+      <div class="a4-box">
+        <i class="fas fa-globe fa-4x text-secondary"></i>
+        <div>
+          <h3 class="text-secondary">Web site</h3>
+          <p>Servizi paperless...</p>
+          <button class="btn btn-secondary">Leggi</button>
+        </div>
+      </div>
+
+      <div class="a4-box">
+        <i class="fas fa-cart-plus fa-4x text-secondary"></i>
+        <h3 class=" text-secondary">E-Commerce</h3>
+        <p>Servizi paperless...</p>
+        <button class="btn btn-secondary">Leggi</button>
+      </div>
+  
+      <div class="a4-box">
+        <i class="fas fa-file-contract fa-4x text-secondary"></i>
+        <h3 class=" text-secondary">Paperless office</h3>
+        <p>Servizi paperless...</p>
+        <button class="btn btn-secondary">Leggi</button>
+      </div>
+
+      <div class="a4-box">
+        <i class="fas fa-chalkboard-teacher fa-4x text-secondary"></i>
+        <h3 class=" text-secondary">Business Applications</h3>
+        <p>Servizi paperless...</p>
+        <button class="btn btn-secondary">Leggi</button>
+      </div>
+
+      <!--
+      <a href="service1.html">
+        <div class="a4-minicard">
+          <img src="/assets/img/service-img-1.jpg" class="img-fluid" alt="">
+          <div>
+              <h2>Paperless Office</h2>
+              <p>
+                Breve descrizione servizio
+              </p>
+              <button type="button" class="btn btn-primary">Leggi</button>
+          </div>
+        </div>
+      </a>
+      -->
+    </div>
+
+  </section>
+  
+  <!-- COMPANY PROFILE -->
+  <section id="company" class="a4-stripe bg-grey-2 text-center">
+    <hgroup>
+      <h1><em>ASCESA</em> Solutions</h1>
+      <h2>Tecnologie, competenze e <em>persone</em> al servizo del <em>tuo business</em></h2>
+    </hgroup>
+    <div class="d-flex flex-wrap justify-content-between align-items-stretch py-4">
+      <div class="text-left">
+        <img src="/assets/img/company.jpg" width="500"/>
+      </div>
+      <div class="text-left pl-4 flex-grow position-relative">
+        <p>Desc</p>
+        <button class="btn btn-tertiary a4-bottom-right">Continua</button>
+      </div>
+      <br>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section id="contacts" class="a4-stripe bg-grey-3 text-center pb-3">
+    <hgroup>
+      <h1>Contatti</h1>
+      <h2></h2>
+    </hgroup>
+    <div class="d-flex flex-wrap">
+
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=via%20ildebrando%20vivanti%2C%2099&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
+      <div class="a4-contacts ml-4 p-2 text-left flex-grow">
+        <p>
+          <i class="fas fa-map-marker-alt"></i>
+          <b>Indirizzo:</b><br>
+          <span>Via Ildebrando Vivanti, 99</span><br>
+          <span>00144 Roma (RM) Italy</span>
+        </p>
+
+        <p>
+          <i class="fas fa-phone"></i>
+          <b>Telefono:</b>
+          <span>+39 06 99341618</span>
+        </p>
+
+        <p>
+          <i class="fas fa-fax"></i>
+          <b>FAX:</b>
+          <span>+39 06 83391618</span>
+        </p>
+
+        <p>
+          <i class="fas fa-at"></i>
+          <b>PEC:</b>
+          <span>ascesa@pec.it</span>
+        </p>
+    
+        <p>
+          <i class="fas fa-at"></i>
+          <b>Informazioni, approfondimenti e segnalazioni:</b><br>
+          <span>info@ascesa.it</span>
+        </p>
+
+        <p>
+          <i class="fas fa-at"></i>
+          <b>Direzione Commerciale:</b><br>
+          <span>sales@ascesa.it</span>
+        </p>
+
+        <p>
+          <i class="fas fa-at"></i>
+          <b>Supporto Tecnico:</b><br>
+          <span>support@ascesa.it</span>
+        </p>
+    
+        <p>
+          <i class="fas fa-at"></i>
+          <b>Per sottomettere la tua candidatura, invia il tuo CV a:</b><br>
+          <span>recruiting@ascesa.it</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNER NETWORK -->
+  <a href="partners.html"> 
+  <section id="partners" class="a4-stripe bg-grey-4 text-light text-center">
+    <hgroup>
+      <h1 class="text-light">Partners</h1>
+      <h2 class="text-light">La rete di aziende che collabora <em>con noi</em> per offrire soluzioni sempre più efficaci <em>per te</em></h2>
+    </hgroup>
+    <div class="d-flex flex-wrap justify-content-around">
+      <a href="https://www.digitaliasistemi.it" target="_blank"><img src="/assets/img/digitalia-logo.png" /></a>
+      <a href="https://www.digitalsense.it" target="_blank"><img src="/assets/img/digitalsense-logo.png" /></a>
+      <a href="http://www.eccofacto.com" target="_blank"><img src="/assets/img/eccofacto-logo.png" /></a>
+    </div>
+  </section>
+  </a>
+
+  <!-- FOOTER -->
+  <section id="footer" class="a4-stripe bg-grey-5 text-light text-left">
+    <div class="d-flex p-4">
+      <div class="flex-grow">
+        <img alt="Ascesa Solutions" class="a4-footer-logo" src="/assets/img/logo-light.svg">
+      </div>
+      <div class="flex-grow">
+        <b>ASCESA Solutions s.r.l.</b>
+        <br>Via Ildebrando Vivanti, 99
+        <br>00144 Roma
+        <br>ITALY
+        <br>
+        <br><b>Telefono:</b> +39 06 99341618
+        <br><b>Fax:</b>	+39 06 83391618
+        <br><b>PEC:</b> ascesa@pec.it 
+        <br>
+        <br><b>C.F./P.Iva:</b> 10147691009
+        <br><b>Numero REA:</b> RM - 1213799        
+      </div>
+      <div class="flex-grow">
+        <p>
+          <b>Links</b>
+          <br><a class="text-light" href="/#">Home</a>
+          <br><a class="text-light" href="/#services">Servizi</a>
+          <br><a class="text-light" href="/#company">Azienda</a>
+          <br><a class="text-light" href="/#contacts">Contatti</a>
+          <br><a class="text-light" href="/#partners">Partners</a>
+        </p>
+        <p class="mt-3">
+          <b>Informativa Privacy</b>
+          <br><a class="text-light" href="/assets/docs/informativa-privacy.pdf" target="_blank">scarica il documento</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="bg-grey-5 text-light text-center py-3" style="border-top:#888 solid 1px">
+      <b>© 2018 - ASCESA Solutions</b> All right reserved
+  </section>
+
+
+  <!-- GDPR NOTIFICATION-->
+  <div id="gdpr" class="alert alert-dark text-light alert-dismissible fade fixed-bottom" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>Informativa Cookie</strong>
+    <p>
+      Per offrirti la migliore esperienza sul nostro sito utilizziamo cookie tecnici, analitici e di profilazione.
+      Consulta l'informativa estesa per saperne di più. 
+      Puoi prestare il consenso chiudendo questo banner o cliccando il tasto "Accetto". 
+      Grazie e buona navigazione!
+    </p>
+    <div>
+      <a href="policy.html" target="_blank"><button class="btn btn-tertiary">Leggi l'informativa</button></a>
+      <button class="btn btn-success" data-dismiss="alert" >Accetto</button>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="></script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.0/src/js.cookie.min.js"></script>  
+  <script src="/assets/js/main.js"></script>
+</body>
 </html>

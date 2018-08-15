@@ -1,0 +1,199 @@
+a { text-decoration: none!important; }
+
+.text-primary { color: #006196!important }
+.bg-primary { background-color: #006196!important }
+
+.text-secondary { color: #f15a24!important }
+.bg-secondary { background-color: #f15a24!important }
+.btn-secondary {
+  color: #fff;
+  background-color: #f15a24!important;
+  border-color: #f15a24!important;
+}
+
+.text-light { color: #ffffffee!important }
+.bg-light { background-color: white!important }
+.alert-dark { background-color: #616161!important }
+
+.bg-grey-1 { background-color: #f4f4f4 !important }
+.bg-grey-2 { background-color: #e4e4e4 !important }
+.bg-grey-3 { background-color: #d4d4d4 !important }
+.bg-grey-4 { background-color: #a4a4a4 !important }
+.bg-grey-5 { background-color: #616161 !important }
+
+.text-grey-5 { color: #616161 }
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.a4-navbar-logo {
+  height: 3rem;
+}
+
+.a4-footer-logo {
+  width: 13rem;
+}
+
+.a4-stripe {
+  padding-left: 0 1rem;  
+}
+
+.a4-stripe p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.a4-stripe em {
+  color:#006196;
+  font-style: normal;
+}
+
+.a4-stripe h1, .a4-stripe h2, .a4-stripe h3 {
+  color: #f15a24;
+  font-family: 'Oswald', sans-serif;
+}
+.a4-stripe hgroup > h1 { font-size: 2.5rem; text-transform: uppercase; margin:0; }
+.a4-stripe hgroup > h2 { font-size: 1.8rem; text-transform: lowercase; margin:0; }
+.a4-stripe h3  { font-size: 1.6rem; text-transform: uppercase;}
+
+.a4-stripe button {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.a4-stripe h1 {
+  padding: 1rem 0;
+}
+
+.a4-stripe h2 {
+  padding-bottom: 2rem;
+}
+
+.a4-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.a4-box {
+  position: relative;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 17rem;
+  max-width: 17rem;
+  height: 17rem;
+  text-align: center;
+  padding: 0, 2rem, 2rem, 2rem;
+  cursor: pointer;
+  background-color:  white;
+  background-size: 20rem 10rem;
+}
+
+.a4-box:before {
+  height: 3rem;
+  content: "";
+  display:block;
+  background-color: #f4f4f4
+}
+
+.a4-box i {
+  margin-top: -2rem;
+}
+
+.a4-box h3 {
+  margin-top: 1rem;
+}
+
+.a4-box button {
+  font-size: .8rem;
+  position: absolute;
+  top: 14rem;
+  left: 6rem;
+  width: 5rem;
+}
+
+.a4-box h3, .a4-box button {
+  text-transform: uppercase;
+}
+
+.a4-contacts {
+  color: #616161
+}
+
+.a4-contacts b, .a4-contacts .fas {
+  color: #006196
+}
+
+.a4-minicard {
+  position: relative;
+}
+
+.a4-minicard > * {
+  border-radius: 10%;
+  width: 20vw;
+  height: 20vw;
+}
+
+.a4-minicard > img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.a4-minicard > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  text-align: center;
+  color: navy;
+  background-color: #ffffffdd;
+}
+
+.a4-minicard > img:hover {
+  opacity: .3;
+}
+
+.a4-minicard > div:hover {
+  opacity: 1;
+}
+
+button.a4-bottom-right {
+  font-size: .8rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+
+.carousel-item {
+  height: calc(100vh - 4rem);
+  min-height: 300px;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.mapouter{
+  text-align:right;
+  height:500px;
+  width:600px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
+
+ 
+@media (min-width: 992px) {
+  .a4-stripe {
+    padding-left: 6rem;  
+    padding-right: 6rem;
+  }
+}
