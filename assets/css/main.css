@@ -36,7 +36,7 @@ a { text-decoration: none!important; }
 }
 
 .a4-stripe {
-  padding-left: 0 1rem;  
+  padding: 0 1rem;  
 }
 
 .a4-stripe p {
@@ -126,38 +126,6 @@ a { text-decoration: none!important; }
   color: #006196
 }
 
-.a4-minicard {
-  position: relative;
-}
-
-.a4-minicard > * {
-  border-radius: 10%;
-  width: 20vw;
-  height: 20vw;
-}
-
-.a4-minicard > img {
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.a4-minicard > div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  text-align: center;
-  color: navy;
-  background-color: #ffffffdd;
-}
-
-.a4-minicard > img:hover {
-  opacity: .3;
-}
-
-.a4-minicard > div:hover {
-  opacity: 1;
-}
 
 button.a4-bottom-right {
   font-size: .8rem;
@@ -179,15 +147,15 @@ button.a4-bottom-right {
 
 .mapouter{
   text-align:right;
-  height:500px;
-  width:600px;
+  height:400px;
+  width:400px;
 }
 
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
-  height:500px;
-  width:600px;
+  height:400px;
+  width:400px;
 }
 
  

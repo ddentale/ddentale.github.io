@@ -115,56 +115,50 @@
         <button class="btn btn-secondary">Leggi</button>
       </div>
 
-      <!--
-      <a href="service1.html">
-        <div class="a4-minicard">
-          <img src="/assets/img/service-img-1.jpg" class="img-fluid" alt="">
-          <div>
-              <h2>Paperless Office</h2>
-              <p>
-                Breve descrizione servizio
-              </p>
-              <button type="button" class="btn btn-primary">Leggi</button>
-          </div>
-        </div>
-      </a>
-      -->
     </div>
 
   </section>
   
   <!-- COMPANY PROFILE -->
-  <section id="company" class="a4-stripe bg-grey-2 text-center">
+  <section id="company" class="a4-stripe bg-grey-2 text-center container-fluid">
     <hgroup>
       <h1><em>ASCESA</em> Solutions</h1>
       <h2>Tecnologie, competenze e <em>persone</em> al servizo del <em>tuo business</em></h2>
     </hgroup>
-    <div class="d-flex flex-wrap justify-content-between align-items-stretch py-4">
-      <div class="text-left">
-        <img src="/assets/img/company.jpg" width="500"/>
+
+    <div class="row justify-content-between py-4">
+        <div class="col-md-6 text-center pb-4">
+            <img src="/assets/img/company.jpg" style="min-width:10rem;max-width:100%;"/>
+          </div>
+        <div class="col-md-6">
+         <p class="text-justify">
+            ASCESA Solutions S.r.l. nasce nel 2007 come azienda di consulenza e sviluppo software orientata ai processi.
+            Grazie all’esperienza maturata dai soci fondatori in più di venti anni di attività nel mondo dell’Information Technology, 
+            e al pool di specialisti che collaborano con l’azienda, essa è in grado di offrire ai propri Clienti le competenze professionali
+            e tecnologiche per portare a compimento progetti mission-critical ad alto contenuto tecnologico, caratterizzandosi per impegno, affidabilità,
+            know-how e cura del Cliente.
+          </p>
+          <button class="btn btn-tertiary">Continua</button>
       </div>
-      <div class="text-left pl-4 flex-grow position-relative">
-        <p>Desc</p>
-        <button class="btn btn-tertiary a4-bottom-right">Continua</button>
-      </div>
-      <br>
     </div>
+
   </section>
 
   <!-- CONTACTS -->
-  <section id="contacts" class="a4-stripe bg-grey-3 text-center pb-3">
+  <section id="contacts" class="a4-stripe bg-grey-1 text-center pb-3 container-fluid">
     <hgroup>
       <h1>Contatti</h1>
       <h2></h2>
     </hgroup>
-    <div class="d-flex flex-wrap">
+    <div class="row">
 
-      <div class="mapouter">
+      <div class="mapouter m-2 text-center flex-grow">
         <div class="gmap_canvas">
-          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=via%20ildebrando%20vivanti%2C%2099&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=via%20ildebrando%20vivanti%2C%2099&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
       </div>
-      <div class="a4-contacts ml-4 p-2 text-left flex-grow">
+
+      <div class="a4-contacts m-2 p-2 text-left flex-grow" style="min-width:10rem">
         <p>
           <i class="fas fa-map-marker-alt"></i>
           <b>Indirizzo:</b><br>
@@ -174,23 +168,25 @@
 
         <p>
           <i class="fas fa-phone"></i>
-          <b>Telefono:</b>
+          <b>Telefono:</b><br>
           <span>+39 06 99341618</span>
         </p>
 
         <p>
           <i class="fas fa-fax"></i>
-          <b>FAX:</b>
+          <b>FAX:</b><br>
           <span>+39 06 83391618</span>
         </p>
 
         <p>
           <i class="fas fa-at"></i>
-          <b>PEC:</b>
+          <b>PEC:</b><br>
           <span>ascesa@pec.it</span>
         </p>
+      </div>
     
-        <p>
+        <div class="a4-contacts m-2 p-2 text-left flex-grow" style="min-width:10rem">
+            <p>
           <i class="fas fa-at"></i>
           <b>Informazioni, approfondimenti e segnalazioni:</b><br>
           <span>info@ascesa.it</span>
@@ -213,6 +209,7 @@
           <b>Per sottomettere la tua candidatura, invia il tuo CV a:</b><br>
           <span>recruiting@ascesa.it</span>
         </p>
+        </div>
       </div>
     </div>
   </section>
@@ -234,11 +231,11 @@
 
   <!-- FOOTER -->
   <section id="footer" class="a4-stripe bg-grey-5 text-light text-left">
-    <div class="d-flex p-4">
-      <div class="flex-grow">
+    <div class="d-flex flex-wrap p-4">
+      <div class="flex-grow pb-4">
         <img alt="Ascesa Solutions" class="a4-footer-logo" src="/assets/img/logo-light.svg">
       </div>
-      <div class="flex-grow">
+      <div class="flex-grow pb-4" style="min-width:10rem;">
         <b>ASCESA Solutions s.r.l.</b>
         <br>Via Ildebrando Vivanti, 99
         <br>00144 Roma
@@ -251,7 +248,7 @@
         <br><b>C.F./P.Iva:</b> 10147691009
         <br><b>Numero REA:</b> RM - 1213799        
       </div>
-      <div class="flex-grow">
+      <div class="flex-grow" style="min-width:10rem;">
         <p>
           <b>Links</b>
           <br><a class="text-light" href="/#">Home</a>
