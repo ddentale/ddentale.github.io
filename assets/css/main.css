@@ -145,19 +145,29 @@ button.a4-bottom-right {
   background-size: cover;
 }
 
-.mapouter{
+.mapouter {
   text-align:right;
   width:500px;
   height:400px;
 }
 
-.gmap_canvas {
+.gmap-canvas {
   overflow:hidden;
   background:none!important;
   width:500px;
   height:400px;
 }
 
+.mapouter .d-md-none {
+  width:300px;
+  height:300px;
+}
+
+.gmap-canvas .d-md-none {
+  width:300px;
+  height:300px;
+}
+  
  
 @media (min-width: 992px) {
   .a4-stripe {
