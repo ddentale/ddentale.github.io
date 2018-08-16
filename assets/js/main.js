@@ -9,7 +9,7 @@ $(function() {
    });
 
   // ANIMATIONS
-  new WOW().init();
+  //new WOW().init();
   
   // GDPR
   if(!Cookies.get('gdpr')) {
