@@ -1,5 +1,16 @@
 $(function() {
 
+  //ANCHOR
+  /*
+  $('.nav-link').click(function(){    
+    console.log('navlink')
+    const divId = $(this).attr('href').substring(1);
+    $('html, body').animate({
+      scrollTop: $(divId).offset().top - 200
+    }, 100);
+   });
+   */
+
   // ANIMATION
   new WOW().init();
   
