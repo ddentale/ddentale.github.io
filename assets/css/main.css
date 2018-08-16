@@ -2,6 +2,11 @@
   scroll-behavior: smooth;
 }
 
+.page-link {
+  text-decoration: none!important
+}
+
+
 a { text-decoration: none!important; }
 
 .text-primary { color: #006196!important }

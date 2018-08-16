@@ -1,10 +1,12 @@
 $(function() {
 
   //ANCHOR
-  $('.nav-link').click(function(){    
-    const divId = $(this).attr('href').substring(1);
+  $('.a4-link').click(function(){    
+    console.log('click')
+    const elId = $(this).attr('href').substring(1);
+    console.log('el', elId, $(elId))
     $('html, body').animate({
-      scrollTop: $(divId).offset().top - 54
+      scrollTop: $(elId).offset().top - 54
     }, 100);
    });
 
