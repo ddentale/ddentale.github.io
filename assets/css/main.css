@@ -6,7 +6,6 @@
   text-decoration: none!important
 }
 
-
 a { text-decoration: none!important; }
 
 .text-primary { color: #006196!important }
@@ -35,6 +34,8 @@ a { text-decoration: none!important; }
 .flex-grow {
   flex-grow: 1;
 }
+
+#footer b { font-weight: 500; }
 
 .a4-navbar-logo {
   height: 3rem;
@@ -92,7 +93,7 @@ a { text-decoration: none!important; }
   flex-shrink: 1;
   width: 17rem;
   max-width: 17rem;
-  height: 17rem;
+  height: 20.5rem;
   text-align: center;
   padding: 0, 2rem, 2rem, 2rem;
   cursor: pointer;
@@ -115,12 +116,19 @@ a { text-decoration: none!important; }
   margin-top: 1rem;
 }
 
+.a4-box div {
+  padding: 0 .5rem;
+  height: 9rem;
+  display: table;
+}
+.a4-box div > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .a4-box button {
+  margin-top: .5rem;
   font-size: .8rem;
-  position: absolute;
-  top: 14rem;
-  left: 6rem;
-  width: 5rem;
 }
 
 .a4-box h3, .a4-box button {
@@ -153,6 +161,23 @@ button.a4-bottom-right {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.carousel-caption {
+  background: #006196;
+  opacity: 0.85;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel-caption h4 {
+  margin-bottom: 2rem;
+  font-weight: normal;
+} 
 
 .mapouter {
   text-align:right;

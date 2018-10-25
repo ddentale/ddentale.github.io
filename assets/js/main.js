@@ -2,9 +2,9 @@ $(function() {
 
   //ANCHOR
   $('.a4-link').click(function(){    
-    console.log('click')
+    //console.log('click')
     const elId = $(this).attr('href').substring(1);
-    console.log('el', elId, $(elId))
+    //console.log('el', elId, $(elId))
     $('html, body').animate({
       scrollTop: $(elId).offset().top - 54
     }, 100);
